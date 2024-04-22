@@ -1,2 +1,26 @@
-# Ignore virtual environment
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.sqlite3
+*.pyc
+
+# Log files
+*.log
+
+# Ignore the virtual environment directory
 .venv/
+
+# Ignore the local settings file
+local_settings.py
+
+# Ignore the media directory (if using file-based media storage)
+media/
+
+# Ignore the staticfiles directory (if using collectstatic)
+staticfiles/
+
+# Ignore database migrations
+**/migrations/
