@@ -24,3 +24,5 @@ staticfiles/
 
 # Ignore database migrations
 **/migrations/
+
+/static/admin/
